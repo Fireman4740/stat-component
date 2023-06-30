@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <StatComponent />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+/* eslint-disable */
+import StatComponent from './components/StatComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    StatComponent
   }
 }
 </script>
